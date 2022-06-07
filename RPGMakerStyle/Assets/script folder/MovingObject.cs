@@ -15,7 +15,6 @@ public class MovingObject : MonoBehaviour
     private int currentWalkCount;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +33,19 @@ public class MovingObject : MonoBehaviour
             applyRunSpeed = 0;
         }
 
-
+        while(currentWalkCount < walkCount)
+        {
+            if (vector.x != 0)
+            {
+                transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
+            }
+            else if (vector.y != 0)
+            {
+                transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
+            }
+            currentWalkCount++;
+        }
+        currentWalkCount = 0;
 
 
         if(Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)

@@ -6,6 +6,9 @@ public class MovingObject : MonoBehaviour
 {
     public float speed;
 
+    private BoxCollider2D boxCollider;
+    public LayerMask layerMask;
+
     private Vector3 vector;
 
     public float runSpeed;
@@ -24,7 +27,9 @@ public class MovingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         animator = GetComponent<Animator>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     IEnumerator MoveCoroutine()
@@ -50,6 +55,26 @@ public class MovingObject : MonoBehaviour
 
             animator.SetFloat("DirX", vector.x);
             animator.SetFloat("DirY", vector.y);
+
+            RaycastHit2D hit;
+            //shoot raser and see if something hits or not
+            //position A + B
+            // hit = null
+            // hit = object
+
+            Vector2 start = transform.position;// A point player's current position
+            Vector2 end = start + new Vector2(vector.x * speed * walkCount, vector.y *speed * walkCount); // B Point player's next position
+            
+
+            boxCollider.enabled = false;
+            
+            hit = Physics2D.Linecast(start, end, layerMask);
+
+            boxCollider.enabled = true;
+
+            if (hit.transform != null) //if there is a wall what comes after this won't be affective
+                break;
+
             animator.SetBool("Walking", true);
 
             while (currentWalkCount < walkCount)

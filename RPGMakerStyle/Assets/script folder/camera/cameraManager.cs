@@ -11,7 +11,7 @@ public class cameraManager : MonoBehaviour
     
     void Start()
     {
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame

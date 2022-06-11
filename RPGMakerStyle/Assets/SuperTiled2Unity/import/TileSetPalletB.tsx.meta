@@ -12,7 +12,7 @@ ScriptedImporter:
   warnings: []
   missingSortingLayers: []
   missingLayers: []
-  pixelsPerUnit: 100
+  pixelsPerUnit: 48
   edgesPerEllipse: 32
   useSpriteAtlas: 1
   atlasWidth: 2048

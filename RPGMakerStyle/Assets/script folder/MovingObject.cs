@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+    static public MovingObject instance;
+
+    //a character instance = a
+    //b character instance = a
+    //corellating objects into one
+
+    public string currentMapName; // 
+
     public float speed;
 
     private BoxCollider2D boxCollider;
@@ -27,9 +35,21 @@ public class MovingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-        animator = GetComponent<Animator>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        if( instance == null)
+        {
+
+            DontDestroyOnLoad(this.gameObject);
+            animator = GetComponent<Animator>();
+            boxCollider = GetComponent<BoxCollider2D>();
+            instance = this;
+
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+
+
     }
 
     IEnumerator MoveCoroutine()

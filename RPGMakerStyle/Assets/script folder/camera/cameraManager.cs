@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class cameraManager : MonoBehaviour
 {
+    static public cameraManager instance;
+
+
     public GameObject target;
     public float moveSpeed;
     private Vector3 targetPosition;
@@ -11,7 +14,16 @@ public class cameraManager : MonoBehaviour
     
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+            if (instance != null)
+            {
+            Destroy(this.gameObject);
+            }
+            else
+            {
+            DontDestroyOnLoad(this.gameObject);
+            instance = this;
+            }
+
     }
 
     // Update is called once per frame

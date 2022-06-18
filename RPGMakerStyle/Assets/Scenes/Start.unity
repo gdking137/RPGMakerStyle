@@ -5511,7 +5511,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.82098174, y: 1.801497}
+  m_Offset: {x: -5.198369, y: 4.5373654}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5522,7 +5522,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.9860654, y: 5.99461}
+  m_Size: {x: 16.740843, y: 11.466348}
   m_EdgeRadius: 0
 --- !u!4 &891962181
 Transform:
@@ -7964,7 +7964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1661012024}
   transferMapName: SchoolFront
-  flag: 0
+  targetBound: {fileID: 891962180}
 --- !u!61 &1820304979
 BoxCollider2D:
   m_ObjectHideFlags: 0

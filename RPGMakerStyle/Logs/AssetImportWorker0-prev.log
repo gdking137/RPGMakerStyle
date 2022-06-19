@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19043.1706; Version 2009; 64bit' Language: 'ko' Physical Memory: 32656 MB
+OS: 'Windows 10 Education; OS build 19043.1766; Version 2009; 64bit' Language: 'ko' Physical Memory: 32656 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/gkim29/Documents/GitHub/RPGMakerStyle/RPGMakerStyle
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53206
+64704
 Successfully changed project path to: C:/Users/gkim29/Documents/GitHub/RPGMakerStyle/RPGMakerStyle
 C:/Users/gkim29/Documents/GitHub/RPGMakerStyle/RPGMakerStyle
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,759 +35,283 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002229 seconds.
+Registered in 0.002901 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.106 seconds
+- Completed reload, in  1.949 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001002 seconds.
+Registered in 0.001147 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  0.721 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1995 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.6 MB.
+Unloading 1997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
 System memory in use after: 94.6 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2438.
-Total: 2.661800 ms (FindLiveObjects: 0.435700 ms CreateObjectMapping: 0.255600 ms MarkObjects: 1.820600 ms  DeleteObjects: 0.148400 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2440.
+Total: 1.946100 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.591900 ms  DeleteObjects: 0.104900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/SuperTiled2Unity/import/School_A5_40.asset
-  artifactKey: Guid(b6a4d71bce8b5f746a1ba842ebf1161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_40.asset using Guid(b6a4d71bce8b5f746a1ba842ebf1161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2b8187bea5daf5896f7d34aa3baf1f') in 0.070409 seconds
-  Import took 0.073449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_47.asset
-  artifactKey: Guid(c73913f0a633c524081abe5a2e12b0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_47.asset using Guid(c73913f0a633c524081abe5a2e12b0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08851b78e30706566c6f2d41b40a8269') in 0.008447 seconds
-  Import took 0.011004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_32.asset
-  artifactKey: Guid(663963d9ea5ba014fa48e1ccc78949a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_32.asset using Guid(663963d9ea5ba014fa48e1ccc78949a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c29692c146bc43c88fe062381788293') in 0.005972 seconds
-  Import took 0.009060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_30.asset
-  artifactKey: Guid(6fed67d7cc22fe34b99d4f59412009ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_30.asset using Guid(6fed67d7cc22fe34b99d4f59412009ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a14b7d90caec96329e61ee1928634fd') in 0.005769 seconds
-  Import took 0.008053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_39.asset
-  artifactKey: Guid(7e45dda6cbbc77b44a2094884d9caf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_39.asset using Guid(7e45dda6cbbc77b44a2094884d9caf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353ddfc915c314b7676eadd24773fa35') in 0.005564 seconds
-  Import took 0.008054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_37.asset
-  artifactKey: Guid(796a9206b2b1f9a44b7ffed2b3bb8ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_37.asset using Guid(796a9206b2b1f9a44b7ffed2b3bb8ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f344715c4df1ffb300fd4d85d204d974') in 0.005931 seconds
-  Import took 0.008264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_28.asset
-  artifactKey: Guid(3582fd9e207e3f54d9581add049a973b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_28.asset using Guid(3582fd9e207e3f54d9581add049a973b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e79feccb72c5ebcfddae8a09454289') in 0.005972 seconds
-  Import took 0.008379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_48.asset
-  artifactKey: Guid(7c30a519fc39840449f652c091191c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_48.asset using Guid(7c30a519fc39840449f652c091191c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dfcf1233d3c9fd75fb7ca05b6d5c4b') in 0.006497 seconds
-  Import took 0.009174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_42.asset
-  artifactKey: Guid(2ba3fcb2728957c4191280e7a39c4547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_42.asset using Guid(2ba3fcb2728957c4191280e7a39c4547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3416141761989f9fb9469ceefc28d592') in 0.005650 seconds
-  Import took 0.008338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_26.asset
-  artifactKey: Guid(d68223db8658b274ab4ade753ef63ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_26.asset using Guid(d68223db8658b274ab4ade753ef63ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe888e45b1413510a2b6b5c1c9d031') in 0.006425 seconds
-  Import took 0.009033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_33.asset
-  artifactKey: Guid(6a1ca87fee7c1a240a776deda642865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_33.asset using Guid(6a1ca87fee7c1a240a776deda642865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fa48e9fa6e2d4a1962785ca534d79d') in 0.007096 seconds
-  Import took 0.009542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_43.asset
-  artifactKey: Guid(0908a2dcc436cda48ad36826e1c84b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_43.asset using Guid(0908a2dcc436cda48ad36826e1c84b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f444e0a22b7fdc7475bfcc6e2d898') in 0.005720 seconds
-  Import took 0.008172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_35.asset
-  artifactKey: Guid(4c84767b18eec3c4eb51b76f57b5e7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_35.asset using Guid(4c84767b18eec3c4eb51b76f57b5e7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6d39a4d7f9f7d7563f6bc8d73b4cdf') in 0.005939 seconds
-  Import took 0.008334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_46.asset
-  artifactKey: Guid(0e758a69ed3e0364682124f928f1f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_46.asset using Guid(0e758a69ed3e0364682124f928f1f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723b5cf1624ba16613442710e96adc79') in 0.006032 seconds
-  Import took 0.008988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_25.asset
-  artifactKey: Guid(4d136f1e2e504b4488452530325fac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_25.asset using Guid(4d136f1e2e504b4488452530325fac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd5d41582435c82561e72796a5cdce3') in 0.006084 seconds
-  Import took 0.008551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_45.asset
-  artifactKey: Guid(283e60dedff5b494c97c8864ec2e7cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_45.asset using Guid(283e60dedff5b494c97c8864ec2e7cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a183d77f7f800365652c973ecfc4e229') in 0.006971 seconds
-  Import took 0.009443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_31.asset
-  artifactKey: Guid(bee13d5b8fd84394ba7a0d67cea6c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_31.asset using Guid(bee13d5b8fd84394ba7a0d67cea6c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca106f2e51c40a19e858ebc92a7ff313') in 0.005548 seconds
-  Import took 0.007929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_41.asset
-  artifactKey: Guid(71aacc76df3005344a7c9b0cbf4379eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_41.asset using Guid(71aacc76df3005344a7c9b0cbf4379eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf36e59e72ab8dde2e25ef2e9c6cf6a') in 0.005829 seconds
-  Import took 0.008334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_49.asset
-  artifactKey: Guid(57833f3af6de5ce41977981d86fd8831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_49.asset using Guid(57833f3af6de5ce41977981d86fd8831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39278b54a55c668f5abed5d45826236') in 0.006886 seconds
-  Import took 0.009873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_29.asset
-  artifactKey: Guid(77610dde55d910f4e89eca58e6500ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_29.asset using Guid(77610dde55d910f4e89eca58e6500ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41745373c27283aa289034c04857756') in 0.008391 seconds
-  Import took 0.011036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_27.asset
-  artifactKey: Guid(d197fdc5fdaadae4ba24a658d77cb1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_27.asset using Guid(d197fdc5fdaadae4ba24a658d77cb1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b3fdebac3c8eb5a0985528edccffa') in 0.005730 seconds
-  Import took 0.008132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_36.asset
-  artifactKey: Guid(5d03070a76e3efe49955ca8fe6c7f3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_36.asset using Guid(5d03070a76e3efe49955ca8fe6c7f3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaf850cfaf097b22c9a006b06cd5475') in 0.007402 seconds
-  Import took 0.009672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_34.asset
-  artifactKey: Guid(590fc1c0add101c45b06d7a2ec48eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_34.asset using Guid(590fc1c0add101c45b06d7a2ec48eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acafb5d5f6d8f313d081907249542c7') in 0.006020 seconds
-  Import took 0.008507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_44.asset
-  artifactKey: Guid(1c0b595e159010f42817610e6e3ea065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_44.asset using Guid(1c0b595e159010f42817610e6e3ea065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dc9a2da24fe0318f4d6b7ff10f439f') in 0.005766 seconds
-  Import took 0.008220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/SuperTiled2Unity/import/School_A5_38.asset
-  artifactKey: Guid(a289ae43513bcf14f87f6606c5ebd6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/School_A5_38.asset using Guid(a289ae43513bcf14f87f6606c5ebd6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0cdc9c1b58907bedcfd055dcd745db') in 0.006390 seconds
-  Import took 0.008904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.149765 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2.png
-  artifactKey: Guid(e46e8fcdeebbede4a86dae4d68b5a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2.png using Guid(e46e8fcdeebbede4a86dae4d68b5a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba2d198498170f955cd6532fe6e1a4d') in 0.042864 seconds
-  Import took 0.045989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.540112 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2.png
-  artifactKey: Guid(e46e8fcdeebbede4a86dae4d68b5a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2.png using Guid(e46e8fcdeebbede4a86dae4d68b5a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05a6aca7b6525334879abe7daa25638') in 0.255075 seconds
-  Import took 0.258500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.886612 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_0.asset
-  artifactKey: Guid(496e4f7ff78e0c94e93d98121fe0c88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_0.asset using Guid(496e4f7ff78e0c94e93d98121fe0c88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a931578ded6e5c78331a2ad76c12bfd2') in 0.008411 seconds
-  Import took 0.011316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_39.asset
-  artifactKey: Guid(57b2405ce407b444ca4b3e483669dafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_39.asset using Guid(57b2405ce407b444ca4b3e483669dafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91dae19079cf9a5e7c3f064d48e57c9') in 0.006745 seconds
-  Import took 0.009393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_15.asset
-  artifactKey: Guid(e1178375858a1fd4881be2af6cff1d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_15.asset using Guid(e1178375858a1fd4881be2af6cff1d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7b0c4ef03d3ae6447ec96750b3446a') in 0.007426 seconds
-  Import took 0.009850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_31.asset
-  artifactKey: Guid(0678212b6bc7bec418d8ae132c9ca824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_31.asset using Guid(0678212b6bc7bec418d8ae132c9ca824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5be0c0cf5ae5f6dc3935259bdd037ec') in 0.006510 seconds
-  Import took 0.009688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_4.asset
-  artifactKey: Guid(ad107d062912fe441bd2c6e5ecd8f462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_4.asset using Guid(ad107d062912fe441bd2c6e5ecd8f462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccd079de5f03fd0cbf436f67b0089c4') in 0.006136 seconds
-  Import took 0.008700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_46.asset
-  artifactKey: Guid(f1066d59772a83c4788a19705a0d2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_46.asset using Guid(f1066d59772a83c4788a19705a0d2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d9a8c5fce708a90774ddb4eb936967') in 0.006643 seconds
-  Import took 0.008813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_43.asset
-  artifactKey: Guid(f6b19a16477ceb04ab28af85a703090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_43.asset using Guid(f6b19a16477ceb04ab28af85a703090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33c058c91054055877291b9483b3fc6') in 0.005711 seconds
-  Import took 0.008135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_47.asset
-  artifactKey: Guid(68885beee023b154a932e963c01d9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_47.asset using Guid(68885beee023b154a932e963c01d9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c3b59da9b5e98dacc2db6c003b3f17') in 0.005974 seconds
-  Import took 0.008427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_6.asset
-  artifactKey: Guid(85332d2c1a5f30f4c8b22f3a53c8f46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_6.asset using Guid(85332d2c1a5f30f4c8b22f3a53c8f46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6d90a64f0bee9cc26cdb636e102ac8') in 0.006791 seconds
-  Import took 0.008947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_37.asset
-  artifactKey: Guid(30c6a8c8f93c15b47aacf4f8b9573dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_37.asset using Guid(30c6a8c8f93c15b47aacf4f8b9573dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c89c76cc40b5e2de9bf54099db4ec36') in 0.006065 seconds
-  Import took 0.008090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_29.asset
-  artifactKey: Guid(1ac69714690cfcd4793d2bd212a94dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_29.asset using Guid(1ac69714690cfcd4793d2bd212a94dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c8b3b7b1ec7045b7dee3bf655ba648') in 0.007256 seconds
-  Import took 0.009453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_48.asset
-  artifactKey: Guid(724e79040d07a544eb5e7d523d348576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_48.asset using Guid(724e79040d07a544eb5e7d523d348576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1d45b77c0edf1f4a50737252a0ec32') in 0.005896 seconds
-  Import took 0.008516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_38.asset
-  artifactKey: Guid(47ff0494c0ac4d143a6f657bf2e9ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_38.asset using Guid(47ff0494c0ac4d143a6f657bf2e9ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd046ec234de31b652c4220698a2879d') in 0.007716 seconds
-  Import took 0.010356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_24.asset
-  artifactKey: Guid(6ba9bca4208f58f4b8ae25ed9c40b414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_24.asset using Guid(6ba9bca4208f58f4b8ae25ed9c40b414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92599ff699b107dc5f67e4d773ea317d') in 0.005161 seconds
-  Import took 0.007450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_2.asset
-  artifactKey: Guid(df6feceddeaf19b4394576db03c36f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_2.asset using Guid(df6feceddeaf19b4394576db03c36f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bc4750119209723e9a310284d39e8') in 0.005562 seconds
-  Import took 0.008308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_32.asset
-  artifactKey: Guid(0a0004946615165498e4a1f1dd5eff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_32.asset using Guid(0a0004946615165498e4a1f1dd5eff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b893e5227da1c5f8e860e1352c0aad') in 0.005420 seconds
-  Import took 0.007832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_3.asset
-  artifactKey: Guid(3b00f01a443a7bf4a8a4f37973a14fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_3.asset using Guid(3b00f01a443a7bf4a8a4f37973a14fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18368fb9444f50c76f6841461946805') in 0.005359 seconds
-  Import took 0.007554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_35.asset
-  artifactKey: Guid(c1c0bb1dc1d7eb348b77e9698ee3b10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_35.asset using Guid(c1c0bb1dc1d7eb348b77e9698ee3b10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d922b08d511be59cb619dd5eb1b0238') in 0.005421 seconds
-  Import took 0.007703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_22.asset
-  artifactKey: Guid(98c0010043ca9244cbe7e3a317d223b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_22.asset using Guid(98c0010043ca9244cbe7e3a317d223b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8532a19b877db40d4fe4d1425d59de8d') in 0.005814 seconds
-  Import took 0.008588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_12.asset
-  artifactKey: Guid(46dc947a994fa584b8642fbf9b0c6a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_12.asset using Guid(46dc947a994fa584b8642fbf9b0c6a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c9330436639e23d9d26c12ef6f3166') in 0.006946 seconds
-  Import took 0.009671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_9.asset
-  artifactKey: Guid(9cb27e1fdb11932418a72cbfc1d3be3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_9.asset using Guid(9cb27e1fdb11932418a72cbfc1d3be3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1951a0b8361ca1f3b2c08348b69f161d') in 0.006591 seconds
-  Import took 0.009083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_34.asset
-  artifactKey: Guid(94466dff1c10ad745b6abc05c92982d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_34.asset using Guid(94466dff1c10ad745b6abc05c92982d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72826fee8c67865063ab41502958b49d') in 0.006995 seconds
-  Import took 0.009563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_11.asset
-  artifactKey: Guid(f46c27566f7650b44a9a5339c0c01816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_11.asset using Guid(f46c27566f7650b44a9a5339c0c01816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6d2e3fd45dc3c7d4008b374ea4c695') in 0.005611 seconds
-  Import took 0.007773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_19.asset
-  artifactKey: Guid(cc7454d547e515243acde81bd1905f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_19.asset using Guid(cc7454d547e515243acde81bd1905f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126153c62b8fe889721d38b27cac960d') in 0.006473 seconds
-  Import took 0.009071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_41.asset
-  artifactKey: Guid(526c2b0cbc45fc04cbbc13130a3d0207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_41.asset using Guid(526c2b0cbc45fc04cbbc13130a3d0207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6484b52a53c02eb46e141c1f887724') in 0.006225 seconds
-  Import took 0.008911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_40.asset
-  artifactKey: Guid(2682ed9f674db8d45974baf59df6d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_40.asset using Guid(2682ed9f674db8d45974baf59df6d59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b1caaaea19ee2f41c45332abf77ef8') in 0.007234 seconds
-  Import took 0.010008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_25.asset
-  artifactKey: Guid(5fb3dc4925d8a67489a5ea0a4ffd7cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_25.asset using Guid(5fb3dc4925d8a67489a5ea0a4ffd7cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0546968f2f71962fbb0c59cf1ea17c86') in 0.006006 seconds
-  Import took 0.009014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_5.asset
-  artifactKey: Guid(e2bfb4349468a1e4d9c2356919ad4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_5.asset using Guid(e2bfb4349468a1e4d9c2356919ad4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f899570a6030cf66575c076b875310') in 0.007530 seconds
-  Import took 0.010490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_13.asset
-  artifactKey: Guid(28cea2a57a7588342a941798d73e9e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_13.asset using Guid(28cea2a57a7588342a941798d73e9e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9cb5fbf0374a25d3686873e9295ed8') in 0.006232 seconds
-  Import took 0.008807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_20.asset
-  artifactKey: Guid(78faa79146044cf4b92dbcf9d5d9b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_20.asset using Guid(78faa79146044cf4b92dbcf9d5d9b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a46f54f8eda072048769ef2022e1d42') in 0.006441 seconds
-  Import took 0.009332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_18.asset
-  artifactKey: Guid(ab03cb89d13cd3148ac9efd338ee9a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_18.asset using Guid(ab03cb89d13cd3148ac9efd338ee9a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdbf20de30dd72f49f79bb09f4b8793') in 0.005844 seconds
-  Import took 0.008491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_27.asset
-  artifactKey: Guid(79e0d428d9086404d8e63e27a29ca5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_27.asset using Guid(79e0d428d9086404d8e63e27a29ca5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc8b72c52c0ae4431e888a8679739e1') in 0.006204 seconds
-  Import took 0.008776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_14.asset
-  artifactKey: Guid(c909a1275cf9cac44bfc371fd6cb1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_14.asset using Guid(c909a1275cf9cac44bfc371fd6cb1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b5703799120f2d46e494e0484fe9df') in 0.005694 seconds
-  Import took 0.008096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_28.asset
-  artifactKey: Guid(969a7763b994c8b47afb266409f81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_28.asset using Guid(969a7763b994c8b47afb266409f81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104f29ec9ca284f636e63d6ff0e35313') in 0.006426 seconds
-  Import took 0.008988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_36.asset
-  artifactKey: Guid(98694284140a9f94db7ad55130a5455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_36.asset using Guid(98694284140a9f94db7ad55130a5455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b2acbf1af3a63bbabfed66b836ea91') in 0.006318 seconds
-  Import took 0.009171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_30.asset
-  artifactKey: Guid(46ea83531de4b9f49ad495499d3d9925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_30.asset using Guid(46ea83531de4b9f49ad495499d3d9925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f59d7e9e3616a1c9f42dcf459da0511') in 0.006749 seconds
-  Import took 0.009589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_17.asset
-  artifactKey: Guid(696b94749dd5c474182281eaa77d9649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_17.asset using Guid(696b94749dd5c474182281eaa77d9649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed80a897bc6ce580f6557e17caefe65') in 0.007229 seconds
-  Import took 0.010191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_45.asset
-  artifactKey: Guid(067439a27d46c2142b409ba5b9d79f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_45.asset using Guid(067439a27d46c2142b409ba5b9d79f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a370369ae8e2fd7931103db881dec8') in 0.006695 seconds
-  Import took 0.010498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_1.asset
-  artifactKey: Guid(3a8544f91dee9fd44a7922b2ee757a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_1.asset using Guid(3a8544f91dee9fd44a7922b2ee757a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7955f1a2ab412aa49a82d3d77fc1b607') in 0.006709 seconds
-  Import took 0.010235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_16.asset
-  artifactKey: Guid(14e3e28bf8100554482284f86f3c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_16.asset using Guid(14e3e28bf8100554482284f86f3c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d247a632b324765340d2d0ca5e49dc8') in 0.006517 seconds
-  Import took 0.009408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_44.asset
-  artifactKey: Guid(5ef6be441e91e7b47bb3f8a09a375e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_44.asset using Guid(5ef6be441e91e7b47bb3f8a09a375e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe553193c9e6fd2611fbc9cc7c2c55b') in 0.007130 seconds
-  Import took 0.010336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_42.asset
-  artifactKey: Guid(ad8562ad679ad73438ae96ecec4da09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_42.asset using Guid(ad8562ad679ad73438ae96ecec4da09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95db63cf0f8ee0fc8fae60f8093a45a') in 0.006736 seconds
-  Import took 0.010149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_8.asset
-  artifactKey: Guid(e6af17e25abfd2b448bd30dd66dd9409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_8.asset using Guid(e6af17e25abfd2b448bd30dd66dd9409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f59f7d40661e1e6a6e8d5d44ed4f66b') in 0.006552 seconds
-  Import took 0.009101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_10.asset
-  artifactKey: Guid(b99a993884d190b44a69ac542c0f2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_10.asset using Guid(b99a993884d190b44a69ac542c0f2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faf12169e490ff83ca43bb03fc5c545') in 0.006437 seconds
-  Import took 0.009258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_7.asset
-  artifactKey: Guid(802c136fd39e9de45b568b4d00b25964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_7.asset using Guid(802c136fd39e9de45b568b4d00b25964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdfa838df7228a84f7f939d32ea949c') in 0.006171 seconds
-  Import took 0.008946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_21.asset
-  artifactKey: Guid(80583339acceba8468a5009f3f46ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_21.asset using Guid(80583339acceba8468a5009f3f46ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dd64da06297438bd741fd083ba020c') in 0.006036 seconds
-  Import took 0.008506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_23.asset
-  artifactKey: Guid(26b5c6a1213174b47a9ba3fd0a8375be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_23.asset using Guid(26b5c6a1213174b47a9ba3fd0a8375be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62705d821c5fd4c2087b40031a9f9e5b') in 0.005623 seconds
-  Import took 0.008063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_26.asset
-  artifactKey: Guid(032639d35b9657545807bc8ed6f0570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_26.asset using Guid(032639d35b9657545807bc8ed6f0570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cba76183ab85b6f4fc013e42a53a992') in 0.005740 seconds
-  Import took 0.008232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/SuperTiled2Unity/import/Inside_A2_33.asset
-  artifactKey: Guid(f0bd88cdb88718b4aafc8c84d7bc3273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SuperTiled2Unity/import/Inside_A2_33.asset using Guid(f0bd88cdb88718b4aafc8c84d7bc3273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5a316a9d3fc22a09a9f69b90cc7411') in 0.007166 seconds
-  Import took 0.010055 seconds .
+  path: Assets/script folder/AudioManager.cs
+  artifactKey: Guid(1bdef14883be066479cfb213110f9614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script folder/AudioManager.cs using Guid(1bdef14883be066479cfb213110f9614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314ba220f2a25eb97e59f65df04e5c71') in 0.027963 seconds
+  Import took 0.030694 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001115 seconds.
+Registered in 0.000962 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.6 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2444.
+Total: 1.690600 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.432200 ms  DeleteObjects: 0.074900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
+- Completed reload, in  0.609 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.6 MB.
-System memory in use after: 97.6 MB.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2451.
-Total: 2.415100 ms (FindLiveObjects: 0.358400 ms CreateObjectMapping: 0.071600 ms MarkObjects: 1.874900 ms  DeleteObjects: 0.109100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 1.704700 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.438800 ms  DeleteObjects: 0.078500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001057 seconds.
+Registered in 0.000885 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
+- Completed reload, in  0.628 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.7 MB.
-System memory in use after: 97.6 MB.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2455.
-Total: 2.167100 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.768600 ms  DeleteObjects: 0.114200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 81395.915788 seconds.
-  path: Assets/SchoolFront.unity
-  artifactKey: Guid(ea6c220f10d884e49b0389bcf2841cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SchoolFront.unity using Guid(ea6c220f10d884e49b0389bcf2841cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279c9c27b3268339eba23146313881fc') in 0.012250 seconds
-  Import took 0.015381 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 1.969300 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.580700 ms  DeleteObjects: 0.085400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001441 seconds.
+Registered in 0.000979 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2456.
+Total: 1.765300 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.457600 ms  DeleteObjects: 0.088500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.610 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.7 MB.
-System memory in use after: 97.7 MB.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2459.
-Total: 2.124200 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.734900 ms  DeleteObjects: 0.114900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.780816 seconds.
-  path: Assets/Scenes/Start.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91181587de2553af7b5cff161478be8b') in 0.009393 seconds
-  Import took 0.012183 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2460.
+Total: 1.719000 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.469300 ms  DeleteObjects: 0.073800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000889 seconds.
+Registered in 0.000833 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
+- Completed reload, in  0.626 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.7 MB.
-System memory in use after: 97.7 MB.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2463.
-Total: 2.056000 ms (FindLiveObjects: 0.379300 ms CreateObjectMapping: 0.095400 ms MarkObjects: 1.486300 ms  DeleteObjects: 0.094400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2464.
+Total: 1.927200 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.529400 ms  DeleteObjects: 0.070900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000830 seconds.
+Registered in 0.001126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2468.
+Total: 2.101700 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.087000 ms MarkObjects: 1.646900 ms  DeleteObjects: 0.082800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
+- Completed reload, in  0.636 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.7 MB.
-System memory in use after: 97.7 MB.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2467.
-Total: 2.501000 ms (FindLiveObjects: 0.379900 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.947400 ms  DeleteObjects: 0.117400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2472.
+Total: 2.010400 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.701200 ms  DeleteObjects: 0.074100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2476.
+Total: 2.153200 ms (FindLiveObjects: 0.333100 ms CreateObjectMapping: 0.097700 ms MarkObjects: 1.621100 ms  DeleteObjects: 0.100300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2480.
+Total: 2.021400 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.630300 ms  DeleteObjects: 0.096900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2484.
+Total: 1.936600 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.068500 ms MarkObjects: 1.526000 ms  DeleteObjects: 0.076200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1992 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2488.
+Total: 1.850400 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.501900 ms  DeleteObjects: 0.100700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

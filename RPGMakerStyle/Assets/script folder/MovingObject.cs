@@ -32,6 +32,13 @@ public class MovingObject : MonoBehaviour
     private bool canMove = true;
 
 
+
+    public string walkSound_1;
+    public string walkSound_2;
+    public string walkSound_3;
+    public string walkSound_4;
+    private AudioManager theAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +49,10 @@ public class MovingObject : MonoBehaviour
             animator = GetComponent<Animator>();
             boxCollider = GetComponent<BoxCollider2D>();
             instance = this;
+            
+
+            theAudio = FindObjectOfType<AudioManager>();
+
 
         }
         else
@@ -97,6 +108,26 @@ public class MovingObject : MonoBehaviour
 
             animator.SetBool("Walking", true);
 
+
+                int temp = Random.Range(1, 4);
+                switch (temp)
+                {
+                    case 1:
+                        theAudio.Play(walkSound_1);
+                        break;
+                    case 2:
+                        theAudio.Play(walkSound_2);
+                        break;
+                    case 3:
+                        theAudio.Play(walkSound_3);
+                        break;
+                    case 4:
+                        theAudio.Play(walkSound_4);
+                        break;
+                }
+
+            theAudio.SetVolumn(walkSound_2, 0.5f);
+
             while (currentWalkCount < walkCount)
             {
                 if (vector.x != 0)
@@ -113,6 +144,10 @@ public class MovingObject : MonoBehaviour
                 }
                 currentWalkCount++;
                 yield return new WaitForSeconds(0.01f);
+
+
+             
+                    
             }
             currentWalkCount = 0;
 

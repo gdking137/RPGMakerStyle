@@ -6,7 +6,7 @@ using UnityEngine;
 public class TransferMap : MonoBehaviour
 {
     public Transform target;
-    private MovingObject thePlayer;
+    private PlayerManager thePlayer;
     private cameraManager theCamera;
     public string transferMapName;
 
@@ -18,7 +18,7 @@ public class TransferMap : MonoBehaviour
     {
 
         theCamera = FindObjectOfType<cameraManager>();
-        thePlayer = FindObjectOfType<MovingObject>();
+        thePlayer = FindObjectOfType<PlayerManager>();
        
     }
 

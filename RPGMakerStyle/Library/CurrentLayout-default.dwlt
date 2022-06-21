@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Animator
+  m_Title: Project
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 579, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 1712
+  controlID: 120
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -69,10 +69,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 579, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 1713
+  controlID: 121
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,7 +175,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -248,10 +248,10 @@ MonoBehaviour:
     y: 0
     width: 1465
     height: 947
-  m_MinSize: {x: 303, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 1714
+  controlID: 43
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,10 +273,10 @@ MonoBehaviour:
     y: 0
     width: 1465
     height: 561
-  m_MinSize: {x: 303, y: 221}
+  m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 1715
+  controlID: 44
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -296,16 +296,16 @@ MonoBehaviour:
     y: 0
     width: 1102
     height: 561
-  m_MinSize: {x: 102, y: 121}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 27444
+  m_LastSelectedObjectID: 27372
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,14 +368,14 @@ MonoBehaviour:
     - {fileID: 3371909276136816811, guid: 56d78288cd7cd4f449f4156034d02688, type: 2}
     - {fileID: -8391106500237286885, guid: 56d78288cd7cd4f449f4156034d02688, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.72105265
+    - e00: 0.75274724
       e01: 0
       e02: 0
-      e03: -21.052643
+      e03: -22.63736
       e10: 0
-      e11: 0.72105265
+      e11: 0.75274724
       e12: 0
-      e13: 131.5263
+      e13: 130.43681
       e20: 0
       e21: 0
       e22: 1
@@ -432,14 +432,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 3
       e01: 0
       e02: 0
-      e03: 257.5
+      e03: 57.5
       e10: 0
-      e11: 1
+      e11: 3
       e12: 0
-      e13: 215.5
+      e13: 126
       e20: 0
       e21: 0
       e22: 1
@@ -448,14 +448,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 3
+    - e00: 1.6124159
       e01: 0
       e02: 0
-      e03: 48.5
+      e03: 40.466797
       e10: 0
-      e11: 3
+      e11: 1.6124159
       e12: 0
-      e13: 174
+      e13: 101.2522
       e20: 0
       e21: 0
       e22: 1
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &15
@@ -549,22 +549,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Images/animation/Character
+    - Assets/script folder
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Images/animation/Character
+  - Assets/script folder
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\gkim29\Documents\GitHub\RPGMakerStyle\RPGMakerStyle
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c730000
-    m_LastClickedID: 29548
-    m_ExpandedIDs: 00000000da720000f07200004673000000ca9a3b
+    m_SelectedIDs: 2e730000
+    m_LastClickedID: 29486
+    m_ExpandedIDs: 000000001e73000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da720000
+    m_ExpandedIDs: 000000001e730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000b03f0000b23f0000784100000c7500008a6a0000de6f0000ce75000012730000
+    m_ExpandedInstanceIDs: c6230000b03f0000b23f0000784100000c7500008a6a0000de6f0000ce75000012730000f06b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,9 +713,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 30f3ffff
+      m_SelectedIDs: b2110000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3afbffff0e6b0000
+      m_ExpandedIDs: 3afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 74.366165, y: -18.226849, z: 0}
     speed: 2
-    m_Value: {x: 74.36616, y: -18.22685, z: -0.00000059407887}
+    m_Value: {x: 74.366165, y: -18.226849, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 61.01046
     speed: 2
-    m_Value: 61.010468
+    m_Value: 61.01046
   m_Ortho:
     m_Target: 1
     speed: 2

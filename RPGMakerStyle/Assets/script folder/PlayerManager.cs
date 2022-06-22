@@ -33,6 +33,8 @@ public class PlayerManager : MovingObject
     {
         if (instance == null)
         {
+            queue = new Queue<string> ();
+
 
             DontDestroyOnLoad(this.gameObject);
             animator = GetComponent<Animator>();
@@ -54,6 +56,7 @@ public class PlayerManager : MovingObject
 
     IEnumerator MoveCoroutine()
     {
+
         while (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
         {
             if (Input.GetKey(KeyCode.LeftShift))

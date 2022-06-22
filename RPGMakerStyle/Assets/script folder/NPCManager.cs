@@ -25,19 +25,20 @@ public class NPCManager : MovingObject
     // Start is called before the first frame update
     void Start()
     {
+        queue = new Queue<string>();
         StartCoroutine(MoveCoroutine());
+
     }
 
     // Update is called once per frame
-public void SetMove()
+    public void SetMove()
     {
-
     }
 
 
 public void SetNotMove()
     {
-
+        StopAllCoroutines();
     }
 
 
@@ -65,7 +66,7 @@ public void SetNotMove()
                         break;
 
                 }
-                yield return new WaitUntil(() => npcCanMove);     //wait until npcCanMove
+                yield return new WaitUntil(() => queue.Count < 2);     //wait until npcCanMove
 
                 base.Move(npc.direction[i], npc.frequency);
                 //moving space

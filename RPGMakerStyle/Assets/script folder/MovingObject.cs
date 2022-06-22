@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+    public string characterName;
+
 
     public float speed;
     public int walkCount;
     protected int currentWalkCount;
 
+    private bool notCoroutine = false;
 
-    protected bool npcCanMove = true;
 
     public BoxCollider2D boxCollider;
     public LayerMask layerMask;
@@ -18,58 +20,76 @@ public class MovingObject : MonoBehaviour
 
     protected Vector3 vector;
 
-    protected void Move(string _dir, int _frequency)
+    public Queue<string> queue;     //queue is a cumulative function 
+
+
+
+
+    public void Move(string _dir, int _frequency = 5) //setting the frequency to a number means you can skip the number when handed over somewhere else
     {
-        StartCoroutine(MoveCoroutine(_dir, _frequency));
+        queue.Enqueue(_dir);
+
+        if(!notCoroutine)
+        {
+            notCoroutine = true;
+            StartCoroutine(MoveCoroutine(_dir, _frequency));
+        }
+
+
     }
 
 
     IEnumerator MoveCoroutine(string _dir, int _frequency)
     {
-        npcCanMove = false;
-        vector.Set(0, 0, vector.z);
-        switch(_dir)
+        while (queue.Count != 0)
         {
-            case "Up":
-                vector.y = 1f;
-                break;
-            case "Down":
-                vector.y = -1f;
+            string direction = queue.Dequeue();
 
-                break;
-            case "Right":
-                vector.x = 1f;
-                break;
-            case "Left":
-                vector.x = -1f; 
-                break;
+
+            vector.Set(0, 0, vector.z);
+
+
+
+
+            switch (direction)
+            {
+                case "Up":
+                    vector.y = 1f;
+                    break;
+                case "Down":
+                    vector.y = -1f;
+
+                    break;
+                case "Right":
+                    vector.x = 1f;
+                    break;
+                case "Left":
+                    vector.x = -1f;
+                    break;
+            }
+
+
+            animator.SetFloat("DirX", vector.x);
+            animator.SetFloat("DirY", vector.y);
+            animator.SetBool("Walking", true);
+
+
+
+            while (currentWalkCount < walkCount)
+            {
+
+                transform.Translate(vector.x * speed, vector.y * speed, 0);
+                currentWalkCount++;
+                yield return new WaitForSeconds(0.01f);
+            }
+            currentWalkCount = 0;
+            if (_frequency != 5)
+                animator.SetBool("Walking", false);
+
+              
         }
-
-
-        animator.SetFloat("DirX", vector.x);
-        animator.SetFloat("DirY", vector.y);
-        animator.SetBool("Walking", true);
-
-
-
-        while (currentWalkCount < walkCount)
-        {
-
-            transform.Translate(vector.x * speed, vector.y * speed, 0);
-            currentWalkCount++;
-            yield return new WaitForSeconds(0.01f);
-
-
-
-
-        }
-
-        currentWalkCount = 0;
-        if(_frequency != 5)
         animator.SetBool("Walking", false);
-
-        npcCanMove=true;
-
+        notCoroutine = false;
     }
 
     protected bool CheckCollsion()

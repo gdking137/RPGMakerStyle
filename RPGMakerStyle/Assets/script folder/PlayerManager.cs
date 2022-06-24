@@ -98,6 +98,11 @@ public class PlayerManager : MovingObject
             if (hit.transform != null) //if there is a wall what comes after this won't be affective
                 break;
 
+
+            bool checkCollisionFlag = base.CheckCollsion();
+            if (checkCollisionFlag)
+                break;
+
             animator.SetBool("Walking", true);
 
 
@@ -118,22 +123,21 @@ public class PlayerManager : MovingObject
                     break;
             }
 
+            boxCollider.offset = new Vector2(vector.x * 0.7f * speed * walkCount, vector.y * 0.7f * speed * walkCount);
+
+
+
             theAudio.SetVolumn(walkSound_2, 0.5f);
 
             while (currentWalkCount < walkCount)
             {
-                if (vector.x != 0)
-                {
-                    transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
-                }
-                else if (vector.y != 0)
-                {
-                    transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
-                }
+                transform.Translate(vector.x *(speed + applyRunSpeed), vector.y * (speed + applyRunSpeed),0);
                 if (applyRunFlag)
                 {
                     currentWalkCount++;
                 }
+                if (currentWalkCount == 12)
+                    boxCollider.offset = Vector2.zero;
                 currentWalkCount++;
                 yield return new WaitForSeconds(0.01f);
 

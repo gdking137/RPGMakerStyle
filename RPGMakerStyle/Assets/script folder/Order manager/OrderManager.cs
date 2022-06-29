@@ -13,7 +13,6 @@ public class OrderManager : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         thePlayer = FindObjectOfType<PlayerManager>();    
@@ -36,6 +35,19 @@ public class OrderManager : MonoBehaviour
         }
         return tempList; //value will go into "characters"
     }
+
+    public void NotMove()
+    {
+        thePlayer.notMove = true;
+
+    }
+
+    public void Move()
+    {
+        thePlayer.notMove = false;
+
+    }
+
 
     public void SetThrough(string _name)
     {
